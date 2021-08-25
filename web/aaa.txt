@@ -1,0 +1,1 @@
+/mnt/DATA/www/html/abnlegal/vendor/composer/../swiftmailer/swiftmailer/lib/swift_required.php   2c102faa651ef8ea5874edb585946bce

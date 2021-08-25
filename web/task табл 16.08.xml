@@ -1,0 +1,1558 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>User</Author>
+  <LastAuthor>Лелик</LastAuthor>
+  <LastPrinted>2021-08-16T11:45:33Z</LastPrinted>
+  <Created>2021-08-16T11:44:48Z</Created>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10005</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Swiss"
+    ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m43728916">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="dd/mm;@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s101">
+   <Font ss:FontName="Times New Roman" x:CharSet="204" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Лист1">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="118" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="15"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="48.75"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="109.5"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="101.25"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="137.25"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="66"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="44.25"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:StyleID="s101" ss:AutoFitWidth="0" ss:Width="39.75"/>
+   <Row>
+    <Cell ss:MergeAcross="9" ss:StyleID="s93"><Data ss:Type="String">Завдання на обхід № BC01011420210814 контролер Базарна Маргарита Анатоліївна таб.№ W30 дата видачі завдання 13.08.2021 cторінка</Data></Cell>
+   </Row>
+   <Row ss:Height="33.75">
+    <Cell ss:StyleID="s94"><Data ss:Type="String">№ п/п</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Особовий рахунок</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Побутовий споживач</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Адреса телефон</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Лічильник</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Попередні покази лічильн.</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Дата обходу</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Покази лічильн.</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Примітки</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Підпис абонента</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="9" ss:StyleID="m43728916"><Data ss:Type="String">м. Жовті Води</Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001041</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Шутіхіна Людмила Дмитрівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 20 кв. 1 тел.: +380663840054</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-ЭА 09М2 01.12.2020 06 311732 2008 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">031765 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001042</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Скиба Сергій Дмитрович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 20 кв. 2 тел.: +380957104409</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02.М2В 01.12.2020 06 5350490 2012 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">001311 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001043</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Дзигуненко Олександр Олександрович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 22 тел.: +380665547249</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 2832951 2010 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">033398 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001044</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Раздобрєєва Наталя Едуардівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 23А тел.: +380665547638</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 0669485 2008 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">082321 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001045</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Кравченко Тетяна Кузьмівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 24 тел.: +380502121200</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-ЭЭ6705 01.12.2020 06 589465 2009 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">009723 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001046</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Черкасова Надія Дмитрівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 25 тел.: +380996384681</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 0676576 2008 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">013711 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001047</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Дуровець Андрій Миколайович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 26 тел.: +380661607645</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2Т 01.12.2020 06 8883748 2018 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">001459 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">8</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001047</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Дуровець Андрій Миколайович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 26 тел.: +380661607645</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2Т 01.12.2020 06 8883748 2018 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">000605 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">9</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001047</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Дуровець Андрій Миколайович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 26 тел.: +380661607645</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2Т 01.12.2020 06 8883748 2018 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">001221 14.04.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001048</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Усенко Євген Юрійович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 27 тел.: +380502016707</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 1922289 2010 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">010543 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001049</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Лисяк Любов Миколаївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 29 тел.: +380955407831</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02.М2В 01.12.2020 06 4365023 2012 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">000458 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001051</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Закутін Олександр Миколайович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 31 тел.: +380984308493</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2МСТР1 01.12.2020 06 7825170 2014 1 ФАВОРИТ 13609083 ФАВОРИТ 13609084 ФАВОРИТ 13609085</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">010324 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001051</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Закутін Олександр Миколайович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 31 тел.: +380984308493</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2МСТР1 01.12.2020 06 7825170 2014 1 ФАВОРИТ 13609083 ФАВОРИТ 13609084 ФАВОРИТ 13609085</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">006358 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">14</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001051</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Закутін Олександр Миколайович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 31 тел.: +380984308493</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2МСТР1 01.12.2020 06 7825170 2014 1 ФАВОРИТ 13609083 ФАВОРИТ 13609084 ФАВОРИТ 13609085</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">016580 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001052</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Какоріна Ілона Володимирівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 32 тел.: +380993550002</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК3-10А1Н9Р.ВT 01.12.2020 06 48500 2015 1 ФАВОРИТ 13699793 ФАВОРИТ 13699794</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">010110 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001052</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Какоріна Ілона Володимирівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 32 тел.: +380993550002</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК3-10А1Н9Р.ВT 01.12.2020 06 48500 2015 1 ФАВОРИТ 13699793 ФАВОРИТ 13699794</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">029105 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">17</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001052</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Какоріна Ілона Володимирівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 32 тел.: +380993550002</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК3-10А1Н9Р.ВT 01.12.2020 06 48500 2015 1 ФАВОРИТ 13699793 ФАВОРИТ 13699794</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">038915 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="33.75">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">18</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001053</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Яловенко Михайло Григорович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 33 тел.: +380990585036</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02.М2В 01.12.2020 06 5334217 2012 4 ФАВОРИТ 13607501 ФАВОРИТ 13607502</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">040142 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">19</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001054</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Лигун Леонід Володимирович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 34 тел.: +380663925301</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Комунар ЛЕ 1101 01.12.2020 06 139301 2006 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">023446 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">20</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001055</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Скринник Валентина Василівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 35 тел.: +380663378955</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02.М2В 01.12.2020 06 5366774 2013 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">000051 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">21</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001056</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Зінов'єв Юрій Володимирович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 36 тел.: +380997290805</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2МСТР1 01.12.2020 06 8081153 2016 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">006170 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">22</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001056</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Зінов'єв Юрій Володимирович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 36 тел.: +380997290805</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2МСТР1 01.12.2020 06 8081153 2016 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">012065 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">23</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001056</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Зінов'єв Юрій Володимирович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 36 тел.: +380997290805</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2МСТР1 01.12.2020 06 8081153 2016 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">018235 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">24</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001057</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Омельчук Раїса Антонівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 37 кв. 1 тел.: +380684079684</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02.М2В 01.12.2020 06 3941210 2011 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">004490 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">25</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001059</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Омельчук Раїса Антонівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 37 кв. 2 тел.: +380684079684</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02.М2В 01.12.2020 06 4346487 2012 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">011488 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">26</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001061</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Овсіенко Валентина Іванівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 38</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-2М2 01.12.2020 04 36837891 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">6550 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">27</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001062</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Давиденко Валентина Павлівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 39 кв. 1 тел.: +380665728512</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 127605 2009 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">008780 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">28</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001062</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Давиденко Валентина Павлівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 39 кв. 1 тел.: +380665728512</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 127605 2009 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">039651 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">29</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001062</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Давиденко Валентина Павлівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 39 кв. 1 тел.: +380665728512</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 127605 2009 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">048431 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">30</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001063</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Кожухова Марія Матвіївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 39 кв. 2 тел.: +380665728512</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 49940 2009 4 СЕЙФ-ПАКЕТ 1763395 ФАВОРИТ 13706915 ФАВОРИТ 13706916</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">019269 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">31</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001063</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Кожухова Марія Матвіївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 39 кв. 2 тел.: +380665728512</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 49940 2009 4 СЕЙФ-ПАКЕТ 1763395 ФАВОРИТ 13706915 ФАВОРИТ 13706916</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">032345 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">32</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001063</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Кожухова Марія Матвіївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 39 кв. 2 тел.: +380665728512</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 49940 2009 4 СЕЙФ-ПАКЕТ 1763395 ФАВОРИТ 13706915 ФАВОРИТ 13706916</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">051576 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">33</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001064</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Пащенко Надія Анатоліівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 40А тел.: +380987932826</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02.М2В 01.12.2020 06 5340415 2012 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">023595 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">34</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001065</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Давиденко Валентина Павлівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 41 тел.: +380665728512</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 127270 2009 4 ФАВОРИТ 13706913 ФАВОРИТ 13706914 ФАВОРИТ 1763396</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">031196 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">35</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001065</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Давиденко Валентина Павлівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 41 тел.: +380665728512</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 127270 2009 4 ФАВОРИТ 13706913 ФАВОРИТ 13706914 ФАВОРИТ 1763396</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">058313 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">36</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001065</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Давиденко Валентина Павлівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 41 тел.: +380665728512</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 127270 2009 4 ФАВОРИТ 13706913 ФАВОРИТ 13706914 ФАВОРИТ 1763396</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">089404 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">37</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001066</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Кашель Микола Павлович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 42 тел.: +380667552099</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-2М2 01.12.2020 04 Г113549 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">1672 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">38</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001067</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Корсунцев Антон Дмитрович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 43 тел.: +380993668013</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 130604 2011 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">025835 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">39</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001067</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Корсунцев Антон Дмитрович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 43 тел.: +380993668013</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 130604 2011 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">030775 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">40</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001067</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Корсунцев Антон Дмитрович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 43 тел.: +380993668013</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 130604 2011 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">056387 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="56.25">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">41</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001068</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Барабаш Наталя Сергіївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 44 тел.: +380985073955</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 128086 2010 2 СЕЙФ-ПАКЕТ 1763397 ФАВОРИТ 13706917 ФАВОРИТ 13706918</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">015830 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="56.25">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">42</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001068</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Барабаш Наталя Сергіївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 44 тел.: +380985073955</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 128086 2010 2 СЕЙФ-ПАКЕТ 1763397 ФАВОРИТ 13706917 ФАВОРИТ 13706918</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">035533 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="56.25">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">43</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001068</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Барабаш Наталя Сергіївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 44 тел.: +380985073955</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 128086 2010 2 СЕЙФ-ПАКЕТ 1763397 ФАВОРИТ 13706917 ФАВОРИТ 13706918</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">051273 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001069</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Кравченко Марія Петрівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 45 тел.: +380993639902</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 130542 2010 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">015846 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ПК</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">45</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001069</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Кравченко Марія Петрівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 45 тел.: +380993639902</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 130542 2010 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">040892 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НП</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">46</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001069</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Кравченко Марія Петрівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 45 тел.: +380993639902</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 130542 2010 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">042913 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">47</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001069</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Кравченко Марія Петрівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 45 тел.: +380993639902</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 130542 2010 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">099615 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">48</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001070</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Гапонов Сергій Євгенійович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 46</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-2М2 01.12.2020 04 1071948 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">3420 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">49</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001071</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Стефанська Ірина Володимирівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 48</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-2М2 01.12.2020 04 Г112505 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">2718 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">50</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001072</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Ромачевський Геннадій Васильович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 49 тел.: +380507836694</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-5 01.12.2020 04 Г 114027 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">2338 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">51</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001073</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Ковальов Олександр Володимирович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 50 тел.: +380501042946</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2Т 01.12.2020 06 8607577 2017 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">003226 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">52</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001073</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Ковальов Олександр Володимирович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 50 тел.: +380501042946</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2Т 01.12.2020 06 8607577 2017 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">001070 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">53</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001073</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Ковальов Олександр Володимирович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 50 тел.: +380501042946</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-01.Е2Т 01.12.2020 06 8607577 2017 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">004296 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="56.25">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">54</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001074</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Бейгуленко Олексій Іванович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 51 тел.: +380995165063</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2303 АП3 Т 01.04.2021 06 7705291 2015 3 КАРАТ C65351073 КАРАТ C65351074 КАРАТ C65351075 КАРАТ C65351076</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">115731 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ПК TP-19.07.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="56.25">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">55</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001074</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Бейгуленко Олексій Іванович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 51 тел.: +380995165063</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2303 АП3 Т 01.04.2021 06 7705291 2015 3 КАРАТ C65351073 КАРАТ C65351074 КАРАТ C65351075 КАРАТ C65351076</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">050905 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НП TP-19.07.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="56.25">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">56</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001074</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Бейгуленко Олексій Іванович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 51 тел.: +380995165063</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2303 АП3 Т 01.04.2021 06 7705291 2015 3 КАРАТ C65351073 КАРАТ C65351074 КАРАТ C65351075 КАРАТ C65351076</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">000000 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ TP-19.07.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="56.25">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">57</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001074</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Бейгуленко Олексій Іванович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 51 тел.: +380995165063</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2303 АП3 Т 01.04.2021 06 7705291 2015 3 КАРАТ C65351073 КАРАТ C65351074 КАРАТ C65351075 КАРАТ C65351076</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">166636 19.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ TP-19.07.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">58</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001075</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Бербелюк Володимир Станіславович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 52 тел.: +380999857550</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-5 01.12.2020 04 19826893 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">7820 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">59</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001076</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Бербелюк Світлана Василівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 54 тел.: +380665634358</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-5 01.12.2020 04 05446648 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">1864 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">60</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001077</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Байбарза Алла Степанівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 55 тел.: +380950600193</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-5 01.12.2020 04 39466505 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">7241 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">61</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001078</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Буянський Василь Олексійович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 56 тел.: +380507789678</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Комунар ЛЕ 1101 01.12.2020 06 137372 2006 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">021170 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">KK-15.05.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">62</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001079</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Веремеев Василь Васильович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 57 тел.: +380669493883</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СОИ-449М1-У 01.12.2020 05 301712 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">10587 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">63</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001080</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Гайдай Клавдія Михайлівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 59 тел.: +380953550296</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-2М2 01.12.2020 04 Г 861975 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">5961 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">64</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001081</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Нікітченко Віра Іванівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 60 тел.: +380997441089</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 2451910 2010 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">016750 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">65</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001082</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Саєнко Ганна Прокопівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 61 тел.: +380994072781</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 199286 2015 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">020025 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="33.75">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">66</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001083</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Пікуль Раїса Єлисеївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 62 тел.: +380507579346</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 2294215 2010 2 ФАВОРИТ 13613728 ФАВОРИТ 13613729</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">020609 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">KK-15.05.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">67</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001084</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Шутехіна Людмила Дмитрівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 64 тел.: +380507152940</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 2993072 2010 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">015867 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">68</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001085</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Шевченко Наталія Юхимівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 68 тел.: +380992506612</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02.М2В 01.12.2020 06 3590245 2011 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">013146 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">69</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001086</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Свячинський Володимир Сергійович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Зелена 70</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-И446 01.12.2020 05 В3321668 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">19053 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">70</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001087</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Чернова Оксана Олександрівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 90 тел.: +380502408025</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-И446 01.12.2020 05 В1545480 2007 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">53450 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Відключено 01.11.2017</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">71</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001088</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Костюков Валерій Павлович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 92 тел.: +380957818837</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-И446М 01.12.2020 05 6986091 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">37395 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">72</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001089</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Білик Ірина Володимирівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 94 тел.: +380987301415</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02.М2В 01.12.2020 06 6671081 2014 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">000690 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">73</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001090</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Черкасова Людмила Миколаївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 96 тел.: +380958126531</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2104-02.20 Р1Т 01.12.2020 06 3723867 2011 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">022266 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">74</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001090</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Черкасова Людмила Миколаївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 96 тел.: +380958126531</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2104-02.20 Р1Т 01.12.2020 06 3723867 2011 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">041284 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">75</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001090</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Черкасова Людмила Миколаївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 96 тел.: +380958126531</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2104-02.20 Р1Т 01.12.2020 06 3723867 2011 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">063432 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">76</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001091</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Ревуцький Леонід Казимирович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 98 тел.: +380954284263</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 136589 2009 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">003980 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">77</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001091</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Ревуцький Леонід Казимирович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 98 тел.: +380954284263</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 136589 2009 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">004262 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">78</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001091</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Ревуцький Леонід Казимирович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 98 тел.: +380954284263</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 136589 2009 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">008204 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">79</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001092</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Цирюнова Любов Миколаївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 100 тел.: +380957795065</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2104-02.30 РТ 01.12.2020 06 3199913 2011 1 КАРАТ C65350632 КАРАТ C65350633 КАРАТ C65350634</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">008265 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН TP-13.07.2021 KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">80</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001092</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Цирюнова Любов Миколаївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 100 тел.: +380957795065</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2104-02.30 РТ 01.12.2020 06 3199913 2011 1 КАРАТ C65350632 КАРАТ C65350633 КАРАТ C65350634</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">016314 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ TP-13.07.2021 KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">81</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001092</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Цирюнова Любов Миколаївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 100 тел.: +380957795065</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2104-02.30 РТ 01.12.2020 06 3199913 2011 1 КАРАТ C65350632 КАРАТ C65350633 КАРАТ C65350634</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">024544 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ TP-13.07.2021 KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">82</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001093</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Алексєєв Олексій Борисович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 102 тел.: +380505946461</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 1941488 2015 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">030754 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">83</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001094</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Шаєнко Ганна Валеріївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 103 тел.: +380509577764</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 604209 2008 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">038606 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">84</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001095</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Немченко Валерій Вікторович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 105 тел.: +380666474971</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-ЭА10Д 01.12.2020 06 81035 2011 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">027833 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">KK-15.05.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">85</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001097</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Балабаєва Надія Павлівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 106 кв. 1 тел.: +380992322931</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-5 01.12.2020 04 2698813 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">6383 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">86</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001096</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Васильєва Лідія Кузьмівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 106 кв. 2 тел.: +380992744760</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-ЭА 09М2 01.12.2020 06 298481 2013 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">024270 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">87</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001098</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Пипич Алла Валеріївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 107</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 2832584 2010 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">000346 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">88</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001099</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Пипич Алла Валеріївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 108 тел.: +380994324720</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-2М2 01.12.2020 04 5642381 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">3985 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">89</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001100</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Пориваєва Наталя Максимівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 109</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 679715 2008 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">005520 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">90</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001101</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Михайліна Марія Єрмолаївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 110</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 3856173 2008 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">022945 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">91</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001102</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Проданчук Валентина Леонідівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 111 тел.: +380662202665</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 1947895 2009 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">018712 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">92</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001103</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Андрусенко Сергій Григорович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 112 тел.: +380997751435</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 136454 2009 1 ФАВОРИТ 13706999 ФАВОРИТ 13707000 ФАВОРИТ 1763399</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">040794 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">93</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001103</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Андрусенко Сергій Григорович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 112 тел.: +380997751435</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 136454 2009 1 ФАВОРИТ 13706999 ФАВОРИТ 13707000 ФАВОРИТ 1763399</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">054026 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">94</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001103</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Андрусенко Сергій Григорович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 112 тел.: +380997751435</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Енергія-9 СТК1-10.ВU1T 01.12.2020 06 136454 2009 1 ФАВОРИТ 13706999 ФАВОРИТ 13707000 ФАВОРИТ 1763399</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">094682 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">95</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001104</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Риба Лідія Миколаївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 113</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 1429334 2009 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">000006 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001105</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Гинку Борис Миколайович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 114</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02.М2В 01.12.2020 06 7250702 2014 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">012963 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Відключено 28.10.2019</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">97</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001106</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Тімохіна Марія Федорівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 115 тел.: +380666070824</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-И446М 01.12.2020 05 1007207 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">09099 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">98</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001107</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Гинку Ольга Миколаївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 116 кв. 1 тел.: +380957791419</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 2823391 2010 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">030617 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">99</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001108</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Данилова Лідія Григорівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 117 кв. 1 тел.: +380959237287</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-И446М 01.12.2020 04 1760526 2000 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">1861 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">100</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001110</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Кошик Артем Володимирович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 118 тел.: +380995215314</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 390083 2013 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">026337 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Відключено 13.02.2020</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">101</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001111</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Горобець Тетяна Іванівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 119 тел.: +380509707659</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 9684 2008 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">010049 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">102</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001113</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Мойсеєнко Сергій Васильович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 121 тел.: +380663910792</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2303 АП3 Т 01.12.2020 06 80834 2012 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">012201 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">103</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001113</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Мойсеєнко Сергій Васильович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 121 тел.: +380663910792</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2303 АП3 Т 01.12.2020 06 80834 2012 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">018980 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">104</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001113</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Мойсеєнко Сергій Васильович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 121 тел.: +380663910792</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2303 АП3 Т 01.12.2020 06 80834 2012 2</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">031134 20.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">105</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001114</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Бардіна Тамара Іванівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 122 тел.: +380955242376</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2102-02 01.12.2020 06 0676248 2008 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">001448 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">106</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001115</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Мороз Раїса Іванівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 123 тел.: +380999855868</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2104-02.20 Р1Т 01.12.2020 06 3724109 2011 4 ФАВОРИТ 13699847 ФАВОРИТ 13699848 ФАВОРИТ 13699849</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">017447 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">107</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001115</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Мороз Раїса Іванівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 123 тел.: +380999855868</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2104-02.20 Р1Т 01.12.2020 06 3724109 2011 4 ФАВОРИТ 13699847 ФАВОРИТ 13699848 ФАВОРИТ 13699849</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">028261 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">108</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001115</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Мороз Раїса Іванівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 123 тел.: +380999855868</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2104-02.20 Р1Т 01.12.2020 06 3724109 2011 4 ФАВОРИТ 13699847 ФАВОРИТ 13699848 ФАВОРИТ 13699849</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">045642 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">109</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001116</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Хрипля Анатолій Максимович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 124 тел.: +380666334665</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-ЭА 09М2 01.12.2020 06 031512 2009 1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">014587 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">110</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001117</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Мелехова Ганна Олексіївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 125 тел.: +380952208752</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2303 АП3 Т 01.12.2020 06 7788827 2011 3 ФАВОРИТ 13607961 ФАВОРИТ 13607962 ФАВОРИТ 13607963</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">021404 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ДН KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">111</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001117</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Мелехова Ганна Олексіївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 125 тел.: +380952208752</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2303 АП3 Т 01.12.2020 06 7788827 2011 3 ФАВОРИТ 13607961 ФАВОРИТ 13607962 ФАВОРИТ 13607963</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">008651 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: НЧ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">112</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001117</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Мелехова Ганна Олексіївна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 125 тел.: +380952208752</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">НІК 2303 АП3 Т 01.12.2020 06 7788827 2011 3 ФАВОРИТ 13607961 ФАВОРИТ 13607962 ФАВОРИТ 13607963</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">029945 14.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">зона: ЗГ KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">113</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001118</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Панченко Ірина Петрівна</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 126 тел.: +380955475635</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-ЭА10Д 01.12.2020 06 0081027 2011 3</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">016654 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">114</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001119</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Кульбаченко Володимир Миколайович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 129 тел.: +380997299078</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-ЭА 09М2 01.12.2020 06 358671 2008 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">032569 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">KK-15.04.2021</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Height="22.5">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">115</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">021001120</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Побережський Ігор Семенович</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">вул. Набережна 133 тел.: +380995279280</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">СО-5 01.12.2020 04 1927172 2006 4</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">8599 31.07.2021</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="DateTime">2021-08-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.51181102362204722"/>
+    <Footer x:Margin="0.51181102362204722"/>
+    <PageMargins x:Bottom="0" x:Left="0.19685039370078741" x:Right="0"
+     x:Top="0.39370078740157483"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <RangeSelection>C1:C10</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

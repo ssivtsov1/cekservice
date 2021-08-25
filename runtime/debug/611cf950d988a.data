@@ -1,0 +1,361 @@
+a:11:{s:6:"config";a:5:{s:10:"phpVersion";s:6:"7.2.34";s:10:"yiiVersion";s:6:"2.0.12";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.12";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:2:"uk";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"7.2.34";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:10:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:56:"/var/www/html/cekservice/vendor/yiisoft/yii2-swiftmailer";}}s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:56:"/var/www/html/cekservice/vendor/yiisoft/yii2-codeception";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:54:"/var/www/html/cekservice/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.9.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:50:"/var/www/html/cekservice/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:48:"/var/www/html/cekservice/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:50:"/var/www/html/cekservice/vendor/yiisoft/yii2-faker";}}s:26:"moonlandsoft/yii2-phpexcel";a:3:{s:4:"name";s:26:"moonlandsoft/yii2-phpexcel";s:7:"version";s:7:"1.1.0.0";s:5:"alias";a:1:{s:18:"@moonland/phpexcel";s:58:"/var/www/html/cekservice/vendor/moonlandsoft/yii2-phpexcel";}}s:16:"yiisoft/yii2-jui";a:3:{s:4:"name";s:16:"yiisoft/yii2-jui";s:7:"version";s:12:"2.0.0.0-beta";s:5:"alias";a:1:{s:8:"@yii/jui";s:48:"/var/www/html/cekservice/vendor/yiisoft/yii2-jui";}}s:18:"kartik-v/yii2-mpdf";a:3:{s:4:"name";s:18:"kartik-v/yii2-mpdf";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:12:"@kartik/mpdf";s:50:"/var/www/html/cekservice/vendor/kartik-v/yii2-mpdf";}}s:39:"nepstor/yii2-datetime-compare-validator";a:3:{s:4:"name";s:39:"nepstor/yii2-datetime-compare-validator";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:19:"@nepstor/validators";s:71:"/var/www/html/cekservice/vendor/nepstor/yii2-datetime-compare-validator";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:11:{s:4:"host";s:13:"192.168.55.10";s:10:"connection";s:10:"keep-alive";s:6:"accept";s:3:"*/*";s:12:"x-csrf-token";s:88:"xPbFR1hyLsIHW3PZfLtJ3uls7zxTDIsfq4FQ0wSggVhNkrIWjSkzHDiSdS_sg30vZoT4K65wl90ch1vNR1Sg7g==";s:10:"user-agent";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36";s:16:"x-requested-with";s:14:"XMLHttpRequest";s:7:"referer";s:54:"http://192.168.55.10/cekservice/web/photo_counter_view";s:15:"accept-encoding";s:13:"gzip, deflate";s:15:"accept-language";s:35:"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7";s:6:"cookie";s:262:"PHPSESSID=399s7fmnf7pu75gfm51itm4f53; _csrf=ed4ca4d99862752749783c8590a7f823407e080c6b945ac49514631073aac999a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%89dwQ%D5%5B%1D%DE%3F%C9%06%F6%9084%F1%8F%E8%17%17%FD%7C%1C%C2%B7%06%0B%1EC%F4%21%B6%22%3B%7D";s:10:"geoip_addr";s:14:"192.168.55.191";}s:15:"responseHeaders";a:2:{s:12:"X-Powered-By";s:10:"PHP/7.2.34";s:12:"Content-Type";s:31:"application/json; charset=UTF-8";}s:5:"route";s:24:"sprav/get_search_street1";s:6:"action";s:59:"app\controllers\SpravController::actionGet_search_street1()";s:12:"actionParams";a:2:{i:0;s:6:"Роб";i:1;s:16:"м. Дніпро";}s:11:"requestBody";a:0:{}s:6:"SERVER";a:40:{s:19:"REDIRECT_GEOIP_ADDR";s:14:"192.168.55.191";s:18:"REDIRECT_UNIQUE_ID";s:27:"YRz5UDbcsPiPGm-VT2v6VQAAAA0";s:15:"REDIRECT_STATUS";s:3:"200";s:10:"GEOIP_ADDR";s:14:"192.168.55.191";s:9:"UNIQUE_ID";s:27:"YRz5UDbcsPiPGm-VT2v6VQAAAA0";s:9:"HTTP_HOST";s:13:"192.168.55.10";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:11:"HTTP_ACCEPT";s:3:"*/*";s:17:"HTTP_X_CSRF_TOKEN";s:88:"xPbFR1hyLsIHW3PZfLtJ3uls7zxTDIsfq4FQ0wSggVhNkrIWjSkzHDiSdS_sg30vZoT4K65wl90ch1vNR1Sg7g==";s:15:"HTTP_USER_AGENT";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36";s:21:"HTTP_X_REQUESTED_WITH";s:14:"XMLHttpRequest";s:12:"HTTP_REFERER";s:54:"http://192.168.55.10/cekservice/web/photo_counter_view";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7";s:11:"HTTP_COOKIE";s:262:"PHPSESSID=399s7fmnf7pu75gfm51itm4f53; _csrf=ed4ca4d99862752749783c8590a7f823407e080c6b945ac49514631073aac999a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%89dwQ%D5%5B%1D%DE%3F%C9%06%F6%9084%F1%8F%E8%17%17%FD%7C%1C%C2%B7%06%0B%1EC%F4%21%B6%22%3B%7D";s:4:"PATH";s:49:"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:100:"Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_auth_gssapi/1.5.1 mod_wsgi/3.4 Python/2.7.5 PHP/7.2.34";s:11:"SERVER_NAME";s:13:"192.168.55.10";s:11:"SERVER_ADDR";s:13:"192.168.55.10";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:14:"192.168.55.191";s:13:"DOCUMENT_ROOT";s:14:"/var/www/html/";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:11:"/cekservice";s:21:"CONTEXT_DOCUMENT_ROOT";s:25:"/var/www/html/cekservice/";s:12:"SERVER_ADMIN";s:15:"sitis@cek.dp.ua";s:15:"SCRIPT_FILENAME";s:38:"/var/www/html/cekservice/web/index.php";s:11:"REMOTE_PORT";s:5:"62406";s:21:"REDIRECT_QUERY_STRING";s:74:"name=%D0%A0%D0%BE%D0%B1&str=%D0%BC.%20%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE";s:12:"REDIRECT_URL";s:40:"/cekservice/web/sprav/get_search_street1";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:74:"name=%D0%A0%D0%BE%D0%B1&str=%D0%BC.%20%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE";s:11:"REQUEST_URI";s:115:"/cekservice/web/sprav/get_search_street1?name=%D0%A0%D0%BE%D0%B1&str=%D0%BC.%20%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE";s:11:"SCRIPT_NAME";s:25:"/cekservice/web/index.php";s:8:"PHP_SELF";s:25:"/cekservice/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1629288784.888;s:12:"REQUEST_TIME";i:1629288784;}s:3:"GET";a:2:{s:4:"name";s:6:"Роб";s:3:"str";s:16:"м. Дніпро";}s:4:"POST";a:0:{}s:6:"COOKIE";a:2:{s:9:"PHPSESSID";s:26:"399s7fmnf7pu75gfm51itm4f53";s:5:"_csrf";s:130:"ed4ca4d99862752749783c8590a7f823407e080c6b945ac49514631073aac999a:2:{i:0;s:5:"_csrf";i:1;s:32:"�dwQ�[�?���84���|·C�!�";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:13:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1629288784.890477;i:4;a:0:{}i:5;i:907536;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1629288784.890495;i:4;a:0:{}i:5;i:908712;}i:2;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1629288784.890984;i:4;a:0:{}i:5;i:1039080;}i:3;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1629288784.891546;i:4;a:0:{}i:5;i:1076440;}i:4;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1629288784.891617;i:4;a:0:{}i:5;i:1082144;}i:12;a:6:{i:0;s:43:"Route requested: 'sprav/get_search_street1'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1629288784.891881;i:4;a:0:{}i:5;i:1174616;}i:13;a:6:{i:0;s:38:"Route to run: sprav/get_search_street1";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1629288784.892056;i:4;a:0:{}i:5;i:1197592;}i:14;a:6:{i:0;s:75:"Running action: app\controllers\SpravController::actionGet_search_street1()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1629288784.892275;i:4;a:0:{}i:5;i:1221368;}i:15;a:6:{i:0;s:180:"select min(id) as id,trim(street) as street from addr_sap where street like '%Роб%' and length($$Роб$$)>2 and town like $$%м. Дніпро%$$ group by street order by street";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.892721;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1452040;}i:16;a:6:{i:0;s:70:"Opening DB connection: pgsql:host=192.168.55.1;port=5432;dbname=abn_dn";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1629288784.892749;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1455112;}i:21;a:6:{i:0;s:1955:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'spr_towns'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.90082;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1481392;}i:24;a:6:{i:0;s:877:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='spr_towns'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.90915;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1492088;}i:27;a:6:{i:0;s:103:"Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.55.191";i:1;i:2;i:2;s:29:"yii\debug\Module::checkAccess";i:3;d:1629288784.913581;i:4;a:0:{}i:5;i:1562856;}}}s:9:"profiling";a:3:{s:6:"memory";i:1562856;s:4:"time";d:0.024720191955566406;s:8:"messages";a:8:{i:17;a:6:{i:0;s:70:"Opening DB connection: pgsql:host=192.168.55.1;port=5432;dbname=abn_dn";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1629288784.892758;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1456880;}i:18;a:6:{i:0;s:70:"Opening DB connection: pgsql:host=192.168.55.1;port=5432;dbname=abn_dn";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1629288784.896434;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1458456;}i:19;a:6:{i:0;s:180:"select min(id) as id,trim(street) as street from addr_sap where street like '%Роб%' and length($$Роб$$)>2 and town like $$%м. Дніпро%$$ group by street order by street";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.896479;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1458608;}i:20;a:6:{i:0;s:180:"select min(id) as id,trim(street) as street from addr_sap where street like '%Роб%' and length($$Роб$$)>2 and town like $$%м. Дніпро%$$ group by street order by street";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.899952;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1461104;}i:22;a:6:{i:0;s:1955:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'spr_towns'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.900873;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1488848;}i:23;a:6:{i:0;s:1955:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'spr_towns'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.908403;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1498376;}i:25;a:6:{i:0;s:877:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='spr_towns'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.909199;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1496216;}i:26;a:6:{i:0;s:877:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='spr_towns'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.912838;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1497784;}}}s:2:"db";a:1:{s:8:"messages";a:6:{i:19;a:6:{i:0;s:180:"select min(id) as id,trim(street) as street from addr_sap where street like '%Роб%' and length($$Роб$$)>2 and town like $$%м. Дніпро%$$ group by street order by street";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.896479;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1458608;}i:20;a:6:{i:0;s:180:"select min(id) as id,trim(street) as street from addr_sap where street like '%Роб%' and length($$Роб$$)>2 and town like $$%м. Дніпро%$$ group by street order by street";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.899952;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1461104;}i:22;a:6:{i:0;s:1955:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'spr_towns'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.900873;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1488848;}i:23;a:6:{i:0;s:1955:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'spr_towns'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.908403;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1498376;}i:25;a:6:{i:0;s:877:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='spr_towns'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.909199;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1496216;}i:26;a:6:{i:0;s:877:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='spr_towns'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1629288784.912838;i:4;a:1:{i:0;a:5:{s:4:"file";s:56:"/var/www/html/cekservice/controllers/SpravController.php";s:4:"line";i:820;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:1497784;}}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:8:"timeline";a:3:{s:5:"start";d:1629288784.889557;s:3:"end";d:1629288784.914389;s:6:"memory";i:1562856;}s:4:"user";N;s:6:"router";a:1:{s:8:"messages";a:7:{i:5;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1629288784.891834;i:4;a:0:{}i:5;i:1169808;}i:6;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1629288784.891845;i:4;a:0:{}i:5;i:1170600;}i:7;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1629288784.891853;i:4;a:0:{}i:5;i:1171432;}i:8;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1629288784.891858;i:4;a:0:{}i:5;i:1172216;}i:9;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1629288784.891863;i:4;a:0:{}i:5;i:1173368;}i:10;a:6:{i:0;a:3:{s:4:"rule";s:8:"<action>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1629288784.891869;i:4;a:0:{}i:5;i:1174160;}i:11;a:6:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1629288784.891872;i:4;a:0:{}i:5;i:1174536;}}}s:7:"summary";a:9:{s:3:"tag";s:13:"611cf950d988a";s:3:"url";s:135:"http://192.168.55.10/cekservice/web/sprav/get_search_street1?name=%D0%A0%D0%BE%D0%B1&str=%D0%BC.%20%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE";s:4:"ajax";i:1;s:6:"method";s:3:"GET";s:2:"ip";s:14:"192.168.55.191";s:4:"time";d:1629288784.888;s:10:"statusCode";i:200;s:8:"sqlCount";i:3;s:9:"mailCount";i:0;}}
