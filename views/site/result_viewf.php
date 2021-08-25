@@ -14,6 +14,30 @@
             });
         });
 
+        var tableOffset = $(".table").offset().top;
+        var $header = $(".table > thead").clone();
+        var $body = $(".table > tbody").clone();
+        var $fixedHeader = $("#header-fixed").append($header);
+        $("#header-fixed").width($(".table").width());
+
+        $(window).bind("scroll", function() {
+            var offset = $(this).scrollTop();
+
+            if (offset >= tableOffset && $fixedHeader.is(":hidden")) {
+                $fixedHeader.show();
+            }
+            else if (offset < tableOffset) {
+                $fixedHeader.hide();
+            }
+
+            $("#header-fixed th").each(function(index){
+                var index2 = index;
+                $(this).width(function(index2){
+                    return $(".table th").eq(index).width();
+                });
+            });
+        });
+
         $("img").click(function(){	// Событие клика на маленькое изображение
             var img = $(this);	// Получаем изображение, на которое кликнули
             var src = img.attr('src'); // Достаем из этого изображения путь до картинки
@@ -299,7 +323,7 @@ echo Html::a('Пошук', ['photo_counter_view'], ['class' => 'btn btn-success'
 </div>
 <div class="popup_event_d">
 </div>
-
+<table id="header-fixed"></table>
 <?php
 
 //Modal::begin([

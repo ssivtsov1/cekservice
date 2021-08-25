@@ -34,7 +34,7 @@ class Fotofix extends \yii\db\ActiveRecord
             'status' => 'Статус',
             'eic' => 'EIC код',
             'counter' => 'Лічильник',
-            'sn' => 'Сер. №;',
+            'sn' => 'Сер. №',
             'zonity' => 'Зон',
             'zone0' => 'Зона загальна',
             'zone1' => 'Зона 1',
