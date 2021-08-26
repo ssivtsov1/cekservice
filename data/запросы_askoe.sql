@@ -65,9 +65,6 @@ WHERE a.accbegin_date>='2021-07-22'
 
 
 
-{youtube}qgJwRtN9gMw{/youtube}   // promo
-
-{youtube}bRBUpXuz4OQ{/youtube}
 
 
 

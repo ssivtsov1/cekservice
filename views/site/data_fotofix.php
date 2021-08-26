@@ -13,7 +13,7 @@ use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
 
     $this->title = 'Пошук фото лічильників';
-    $arr1=['','Дата','Лічильник','ТП','Адреса','Подія','Всі фільтри'];
+    $arr1=['','Дата','Лічильник','ТП','Адреса','Подія','№ пломби','Всі фільтри','Наявність пломби'];
 
 ?>
 
@@ -42,6 +42,7 @@ use yii\helpers\Url;
                 <?= $form->field($model, 'tp')->textInput() ?>
                 <?= $form->field($model, 'counter')->textInput() ?>
                 <?= $form->field($model, 'sn')->textInput() ?>
+                <?= $form->field($model, 'exist_seal')->textInput() ?>
             <?= $form->field($model, 'date1')->
             widget(\yii\jui\DatePicker::classname(), [
                 'language' => 'uk'
@@ -172,6 +173,8 @@ use yii\helpers\Url;
                     select id,names
                      from spr_foto ')->all(), 'id', 'names')) ?>
 
+            <?= $form->field($model, 'n_seal')->textInput() ?>
+
             <?= $form->field($model, 'other_items')-> textInput() -> dropDownList (
                     $arr1,[ 'onchange' => 'select_filter($(this).val());'] )?>
 
@@ -229,6 +232,7 @@ use yii\helpers\Url;
             $('.field-data_fotofix-type_image').hide();
             $('.field-data_fotofix-event').hide();
             $('.adr_modal').hide();
+            $('.field-data_fotofix-n_seal').hide();
         }
         if(id==2){
             $('.field-data_fotofix-counter').show();
@@ -244,6 +248,7 @@ use yii\helpers\Url;
             $('.field-data_fotofix-type_image').hide();
             $('.field-data_fotofix-event').hide();
             $('.adr_modal').hide();
+            $('.field-data_fotofix-n_seal').hide();
         }
         if(id==3){
             $('.field-data_fotofix-tp').show();
@@ -259,6 +264,7 @@ use yii\helpers\Url;
             $('.field-data_fotofix-type_image').hide();
             $('.field-data_fotofix-event').hide();
             $('.adr_modal').hide();
+            $('.field-data_fotofix-n_seal').hide();
         }
         if(id==4){
             $('.field-data_fotofix-town').show();
@@ -274,6 +280,7 @@ use yii\helpers\Url;
             $('.field-data_fotofix-tp').hide();
             $('.field-data_fotofix-type_image').hide();
             $('.field-data_fotofix-event').hide();
+            $('.field-data_fotofix-n_seal').hide();
         }
         if(id==5){
             $('.field-data_fotofix-type_image').show();
@@ -288,9 +295,26 @@ use yii\helpers\Url;
             $('.field-data_fotofix-id_street').hide();
             $('.field-data_fotofix-counter').hide();
             $('.field-data_fotofix-sn').hide();
+            $('.field-data_fotofix-n_seal').hide();
             $('.adr_modal').hide();
         }
         if(id==6){
+            $('.field-data_fotofix-type_image').hide();
+            $('.field-data_fotofix-event').hide();
+            $('.field-data_fotofix-date1').hide();
+            $('.field-data_fotofix-date2').hide();
+            $('.field-data_fotofix-tp').hide();
+            $('.field-data_fotofix-town').hide();
+            $('.field-data_fotofix-street').hide();
+            $('.field-data_fotofix-house').hide();
+            $('.field-data_fotofix-id_t').hide();
+            $('.field-data_fotofix-id_street').hide();
+            $('.field-data_fotofix-counter').hide();
+            $('.field-data_fotofix-sn').hide();
+            $('.field-data_fotofix-n_seal').show();
+            $('.adr_modal').hide();
+        }
+        if(id==7){
             $('.field-data_fotofix-type_image').show();
             $('.field-data_fotofix-event').show();
             $('.field-data_fotofix-date1').show();
@@ -303,6 +327,7 @@ use yii\helpers\Url;
             $('.field-data_fotofix-id_street').show();
             $('.field-data_fotofix-counter').show();
             $('.field-data_fotofix-sn').show();
+            $('.field-data_fotofix-n_seal').show();
             $('.adr_modal').show();
         }
         if(id==0){
@@ -317,9 +342,12 @@ use yii\helpers\Url;
             $('.field-data_fotofix-id_t').hide();
             $('.field-data_fotofix-id_street').hide();
             $('.field-data_fotofix-counter').hide();
-            $('.field-data_fotofix-sn').hide();
+            data_fotofix-exist_sealhide();
             $('.adr_modal').hide();
 
+        }
+        if(id==8){
+            $('#data_fotofix-exist_seal').val(1);
         }
 
     }

@@ -112,6 +112,7 @@ $img = $file_path;
                 </div>
             <?php endif;?>
 
+
             <?= \yii\helpers\Html::img("data/foto_wifi/byt/$img",['class'=>'img_detail']) ?>
         </div>
 
@@ -139,7 +140,40 @@ $img = $file_path;
 //        ]]);  ?>
 </div>
 
-
 <div class="clearfix"></div>
+<?php if(!empty($seals)) { ?>
+            <div class="seals">
+                <span class="badge badge-secondary">Пломби</span>
+                <table id="tbl_rez"  cellpadding="0" cellspacing="0" border=1>
+                    <tr class="tbl_row">
+                        <? if(!empty($seals)) { ?>
+                            <th class="tbl_header"> № </th>
+                            <th class="tbl_header"> № пломби </th>
+                            <th class="tbl_header"> Місце </th>
+                            <th class="tbl_header"> Назва </th>
+                            <th class="tbl_header"> Дата встановлення </th>
+
+                        <? } ?>
+                    </tr>
+
+                    <?php if(!empty($seals)) {
+                        for($i=0;$i<count($seals);$i++) {
+                            echo('<tr class="tbl_row">');
+                            echo('<td>' . ($i+1) . '</td>');
+                            echo('<td>' . $seals[$i]['code'] . '</td>');
+                            echo('<td>' . $seals[$i]['place'] . '</td>');
+                            echo('<td>' . $seals[$i]['category'] . '</td>');
+                            echo('<td>' . format_date2($seals[$i]['date_install']) . '</td>');
+                            echo('</tr>');
+                        }}
+                    ?>
+                    </tr>
+                </table>
+
+            </div>
+<? } ?>
+
+
+
 <br>
 

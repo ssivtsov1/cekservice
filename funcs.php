@@ -670,4 +670,14 @@ function bfoto($row, $bfoto, $insert_id)
     fclose($fp);
 }
 
+// Форматирование даты в удобном формате (без времени)
+// в виде дд.мм.гггг
+function format_date2($date)
+{
+    $dd=substr($date,8,2);
+    $mm =substr($date,5,2);
+    $yy = substr($date,0,4);
+    return $dd . '.' . $mm . '.' .$yy;
+}
+
     ?>

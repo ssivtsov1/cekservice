@@ -1258,6 +1258,8 @@ where 1 = 1";
                 'eic' => $model->eic,
                 'tp' => $model->tp,
                 'counter' => $model->counter,
+                'exist_seal' => $model->exist_seal,
+                'n_seal' => $model->n_seal,
                 ]);
         }
         else {
@@ -2100,21 +2102,30 @@ select d.*,case when owneraccount is null then code else owneraccount end as lic
 
 //            debug($mas);
 //            return;
+        // Получаем данные по пломбам
+        $sql = "select * from vw_seals where lic='$ls'";
+        $seals = fotofix::findBySql($sql)->asarray()->all();
+//        debug($seals);
+//        return;
 
             return $this->render('detail_photo', ['img' => $img,'ls'=>$ls,
             'date'=>$date,'fio'=>$fio,'id' => $id,'adres' => $adres,'file_path'=> $img,
-                'num'=>$num,'mas'=>$mas]);
+                'num'=>$num,'mas'=>$mas,'seals'=>$seals]);
 
     }
 
     // Просмотр фото счетчиков
     public function actionView_fotofix($date1,$date2,$fio,$lic,$rem,$event,$type_image,
-                                       $town,$street,$house,$sapid,$sn,$eic,$tp,$counter)
+                                       $town,$street,$house,$sapid,$sn,$eic,$tp,$counter,$exist_seal,$n_seal)
     {
-
         // Создание поискового sql выражения
         $where = ' WHERE 1=1';
-
+        if (!empty($n_seal)) {
+            $where.=' and trim(n_seal) like '."'%".trim($n_seal)."%'";
+        }
+        if ($exist_seal==1) {
+            $where.=' and exists(select * from vw_seals where lic=vw_fotofix.ls)';
+        }
         if (!empty($lic)) {
             $where.=' and trim(ls) like '."'%".trim($lic)."%'";
         }

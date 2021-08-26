@@ -43,6 +43,7 @@ class Fotofix extends \yii\db\ActiveRecord
             'tp' => 'ТП',
             'sapid' => 'К. рахунок',
             'zdate' => 'Дата показань',
+            'n_seal' => '№ пломби',
         ];
     }
 

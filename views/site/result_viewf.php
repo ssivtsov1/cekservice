@@ -311,7 +311,8 @@ echo Html::a('Пошук', ['photo_counter_view'], ['class' => 'btn btn-success'
                 'zone2',
                 'zone3',
                 'zdate',
-                'operator'
+                'operator',
+                'n_seal'
 
             ],
         ]);?>

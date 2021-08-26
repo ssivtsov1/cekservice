@@ -25,6 +25,8 @@ class Data_fotofix extends Model
     public $tp;         // ТП
     public $counter;         // Тип счетчика
     public $other_items;         // Тип счетчика
+    public $exist_seal;     // Наличие пломбы
+    public $n_seal;     // № пломбы
 
     public function attributeLabels()
     {
@@ -53,6 +55,7 @@ class Data_fotofix extends Model
             'sapid' => 'Контокорентний рахунок',
             'counter' => 'Тип лічильника',
             'other_items' => 'Інші фільтри',
+            'n_seal' => '№ пломби',
         ];
     }
 
@@ -84,6 +87,8 @@ class Data_fotofix extends Model
             ['tp', 'safe'],
             ['counter', 'safe'],
             ['other_items', 'safe'],
+            ['exist_seal', 'safe'],
+            ['n_seal', 'safe'],
         ];
     }
 

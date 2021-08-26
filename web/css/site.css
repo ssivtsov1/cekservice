@@ -1691,6 +1691,7 @@ body {
 .field-data_fotofix-tp,
 .field-data_fotofix-counter,
 .field-data_fotofix-sn,
+.field-data_fotofix-n_seal,
 .field-data_fotofix-date1,
 .field-data_fotofix-date2,
 .field-data_fotofix-town,
@@ -1724,9 +1725,17 @@ body {
 
 #header-fixed {
     position: fixed;
-    top: 22px;
+    top: 16px;
     display:none;
     background-color:lightgrey;
     left: 4%;
     font-size: 13px;
+}
+
+.seals {
+    margin-top: 12%;
+    margin-left: 12%;
+}
+.field-data_fotofix-exist_seal{
+    display:none;
 }
