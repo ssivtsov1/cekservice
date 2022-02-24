@@ -358,7 +358,7 @@ class Model extends Component implements IteratorAggregate, ArrayAccess, Arrayab
             $validator->validateAttributes($this, $attributeNames);
         }
         $this->afterValidate();
-
+//        debug($this->getActiveValidators());
         return !$this->hasErrors();
     }
 

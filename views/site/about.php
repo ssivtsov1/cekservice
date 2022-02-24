@@ -24,7 +24,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 </div>
 
-<?= Html::a('На головну', ['photo_counter'], ['class' => 'btn btn-primary']) ?>
+<?//= Html::a('На головну', ['photo_counter'], ['class' => 'btn btn-primary']) ?>
 <code><?//= __FILE__ ?></code>
 
 <!--</div>-->

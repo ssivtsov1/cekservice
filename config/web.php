@@ -43,7 +43,7 @@ $config = [
 
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
-                'host' => '192.168.55.1',
+                'host' => 'mx.cek.dp.ua',
                 'username' => 'usluga@cek.dp.ua',
                 'password' => '1Qaz2Wsxcalc',
                 'port' => '587',
@@ -72,6 +72,7 @@ $config = [
         ],
         'db_gv' => require(__DIR__ . '/db_gv.php'),
         'db_dn' => require(__DIR__ . '/db_dn.php'),
+        'db_dnres' => require(__DIR__ . '/db_dnres.php'),
         'db_krg' => require(__DIR__ . '/db_krg.php'),
         'db_pv' => require(__DIR__ . '/db_pv.php'),
         'db_vg' => require(__DIR__ . '/db_vg.php'),

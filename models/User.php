@@ -146,7 +146,9 @@ class User extends ActiveRecord implements IdentityInterface
 
     public static function getDb()
     {
-        return Yii::$app->get('db_dn');
+        return Yii::$app->get('db_dnres');
     }
+
+
 
 }

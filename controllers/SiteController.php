@@ -3,17 +3,25 @@
 namespace app\controllers;
 
 use app\models\Calc;
+use app\models\Client;
 use app\models\Createproposal;
 use app\models\Diary;
+use app\models\loginform;
+use app\models\request;
 use app\models\Edit_photo;
 use app\models\Plan1;
 use app\models\photo_task;
+use app\models\actual;
+use app\models\send_msg;
 use app\models\spr_foto;
 use app\models\bsob;
+use app\models\Viewschet;
 use SQLite3;
 use app\models\Image;
 use app\models\phones_sap_search;
 use app\models\Power_outages;
+use app\models\get_message;
+use app\models\checkcode;
 use app\models\off_site;
 use app\models\PoweroutagesForm;
 use app\models\View_photo;
@@ -1068,11 +1076,145 @@ where 1 = 1";
 
             $data = Off_site::findbysql($sql)->asArray()
                 ->all();
+
 //            debug($data);
 //            return;
+
             return $this->render('result_power_outage', compact('data'));
         } else {
             return $this->render('power_outages', compact('model'));
+        }
+    }
+
+    // Рассылка сообщений об отключениях на эл. почту
+    public function actionMsg_shutdown()
+    {
+        // Получаем данные по адресам электронной почты кому нужно
+        // делать рассылку
+            $sql = "select lic,email,max(date) as date 
+                            from send_msg
+                            where lic||date::varchar in (select lic||date::varchar from ( 
+                            select lic,max(date) as date 
+                            from send_msg
+                            group by 1
+                            ) q)
+                            group by 1,2";
+
+        $sql = "select lic,email,max(date) as date 
+                    from send_msg
+                    group by 1,2";
+
+            $data = Send_msg::findbysql($sql)->asArray()
+                ->all();
+//            debug($data);
+//            return;
+         // Отправка сообщений
+        if(count($data)>0) {
+            $date_av = date('Y-m-d');
+            foreach ($data as $v) {
+                $lic = substr($v['lic'], 1);
+                $email=trim($v['email']);
+                $sql = "SELECT distinct a.*,b.accountid,
+                case when (a.issubmit=1 and a.factend_date is null) or (a.issubmit=0 and a.factend_date is null) then 'Активна' 
+                when (a.issubmit=1 and a.factend_date is not null) then 'Закрита' 
+                when (a.factend_date is not null and a.issubmit=0) then 'Скасована' end as status
+                FROM cc_crash a 
+                left JOIN cc_crash_account b ON 
+                a.accidentid=b.accidentid
+                WHERE 
+                a.accbegin_date>='$date_av'  and  
+                b.accountid like '%$lic%'";
+
+                $off_data = Off_site::findbysql($sql)->asArray()
+                    ->all();
+                if(count($off_data)>0) {
+                $CT32 = "<table class='table'>
+                <thead>
+                <tr>
+                    <td>Дата відключення</td>
+                    <td>Дата закінчення</td>
+                    <td>Причина відключення</td>
+                    <td>Статус</td>
+                    
+                </tr>
+                </thead>
+                ";
+                    // Отображение данных
+                    $integra = '';
+                    foreach ($off_data as $v1) {
+                        $integra .= '<tr><td>' . format_date2($v1['accbegin_date']) . ' ' . substr($v1['accbegin_date'], 11) . '</td>' .
+                            '<td>' . format_date2($v1['planend_date']) . ' ' . substr($v1['planend_date'], 11) . '</td>' .
+                            '<td>' . $v1['descr'] . '</td>' .
+                            '<td>' . $v1['status'] . '</td>';
+
+                    }
+                    $integra .= '</table>';
+                    $CT32 .= $integra;
+//                    debug($email);
+//                    return;
+                    $out = "<div><label>Аварійні або планові відключення</label>$CT32</div>";
+                    Yii::$app->mailer->compose()
+                        ->setFrom('usluga@cek.dp.ua')
+                        ->setTo($email)
+                        ->setSubject('Увага, аварійні або планові відключення від ПрАТ «ПЕЕМ «ЦЕК')
+                        ->setHtmlBody($out)
+                        ->send();
+                }
+
+            }
+        }
+            return;
+    }
+
+
+    public function actionCheckcode($lic, $checkcode, $email)
+    {
+        $lic = Yii::$app->request->get('lic');
+        $checkcode = Yii::$app->request->get('checkcode');
+        $email = Yii::$app->request->get('email');
+        $checkcode = $checkcode ^ 5555;
+
+        $model_check = new checkcode($checkcode);
+        if ($model_check->load(Yii::$app->request->post())) {
+
+            $server = new Send_msg();
+            $server->lic=$lic;
+            $server->email=$email;
+            $server->save();
+            $msg = 'Відтепер на Вашу електронну адресу будуть приходити повідомлення по відключенням !';
+            $model1 = new info();
+            $model1->title =  $msg;
+            $model1->info1 = "";
+            $model1->style1 = "d15";
+            $model1->style2 = "info-text";
+            $model1->style_title = "d9";
+            return $this->render('about', [
+                'model' => $model1]);
+        }
+        else {
+            return $this->render('checkcode', ['model_check' => $model_check,
+                'checkcode' => $checkcode]);
+        }
+    }
+
+    public function actionGet_message($lic)
+    {
+        $model = new get_message();
+        $model->lic=$lic;
+        if ($model->load(Yii::$app->request->post()) && $model->validate())
+        {  $checkcode = rand(100, 9999);   // Генерация кода доступа
+            $checkcode1 = $checkcode ^ 5555;
+            Yii::$app->mailer->compose()
+                ->setFrom('usluga@cek.dp.ua')
+                ->setTo($model->email)
+                ->setSubject('Код доступу для приймання повідомлень від ПрАТ «ПЕЕМ «ЦЕК»')
+                ->setHtmlBody('<b>Код доступу для приймання повідомлень від ПрАТ «ПЕЕМ «ЦЕК».</b><br>' . $checkcode)
+                ->send();
+            return $this->redirect([ 'checkcode',
+                'lic' => $lic,'checkcode' => $checkcode1,'email'=> $model->email]);
+         }
+        else {
+            return $this->render('get_message', ['model' => $model,'lic' => $lic]);
         }
     }
 
@@ -1271,7 +1413,7 @@ where 1 = 1";
     }
 
     //  Происходит при передаче показаний счетчика
-//    из формы показаний
+  //    из формы показаний
     public function actionTransitvalue()
     {
         $model = new Data_person();
@@ -1490,23 +1632,227 @@ where 1 = 1";
         }
     }
 
-    //  Происходит при закачке данных с АСКОЕ в САП
-    public function actionAskoe2sap()
+    //  Происходит при просмотре документов
+    //  от пользователей электроэнергией для актуализации
+    //  используется только для работников ЦЕКа
+    public function actionView_actualization()
     {
-        $model = new Data_askoe();
-        if ($model->load(Yii::$app->request->post()))
-        {
-            return $this->redirect([ 'smart2sap',
-                'res' => $model->res,
-                'code' => $model->code]);
+
+      // Проверка прав доступа
+        if (!\Yii::$app->user->isGuest) {
+            return $this->redirect(['site/view_actual']);
         }
-        else {
-            $role=0;
-            return $this->render('data_askoe', [
+        if (strpos(Yii::$app->request->url, '/view_actualization') == 0) {
+            return $this->redirect(['site/view_actual']);
+        }
+        $model = new loginform();
+        if ($model->load(Yii::$app->request->post()) && $model->login()) {
+            return $this->redirect(['site/view_actual']);
+        } else {
+            // Форма ввода логина и пароля
+            return $this->render('login', [
                 'model' => $model,
             ]);
         }
     }
+
+//  Просмотр записей актуализации
+    public function actionView_actual()
+    {
+        $role=0;  // Хранит признак как пользователь из ЦЕКа авторизовался нужен в дальнейшем для фильтрации данных только своего РЭСа
+        if(!isset(Yii::$app->user->identity->role))
+        {      $flag=0;}
+        else{
+            $role=Yii::$app->user->identity->role;
+        }
+
+        $searchModel = new request();
+        $v = request::find()->all();
+        if (count($v) > 0) {
+            $dataProvider = $searchModel->search(Yii::$app->request->queryParams,$role);
+            $dataProvider->pagination = false;
+            // Форма вывода информации по актуализации
+            return $this->render('view_actual', ['model' => $v,
+                'dataProvider' => $dataProvider,'searchModel' => $searchModel]);
+        }
+        else{
+            // Если не найдены записи по актуализации
+                $model = new info();
+                $model->title =  "Увага!";
+                $model->info1 = "Таблиця з даними по актуалізації пуста. Дані ще не передавались";
+                $model->style1 = "d15";
+                $model->style2 = "info-text";
+                $model->style_title = "d9";
+
+                return $this->render('about', [
+                    'model' => $model]);
+            }
+        }
+
+    //  Происходит при передаче документов
+    //  от пользователей электроэнергией для актуализации
+    public function actionActualization()
+    {
+            $model = new actual();
+
+        if ($model->load(Yii::$app->request->post()))
+            {
+                $ar_doc=[];  // Массив признаков о загрузке документов
+                $i=0;
+                $rand = rand();  // Уникальный номер (нужен для связи таблицы пользователей эл. энергии с таблицей документов)
+
+                $model->doc1 = UploadedFile::getInstance($model,'doc1');
+                $u1 = $model->doc1;
+                $model->doc2 = UploadedFile::getInstance($model,'doc2');
+                $u2 = $model->doc2;
+                $model->doc3 = UploadedFile::getInstance($model,'doc3');
+                $u3 = $model->doc3;
+                $model->doc4 = UploadedFile::getInstance($model,'doc4');
+                $u4 = $model->doc4;
+
+                if($model->doc1) {
+                    $model->upload('doc1',$rand);
+                    $ar_doc[$i]=1;
+                }
+                if($model->doc2) {
+                    $model->upload('doc2',$rand);
+                    $i++;
+                    $ar_doc[$i]=1;
+                }
+                if($model->doc3) {
+                    $model->upload('doc3',$rand);
+                    $i++;
+                    $ar_doc[$i]=1;
+                }
+                if($model->doc4) {
+                    $model->upload('doc4',$rand);
+                    $i++;
+                    $ar_doc[$i]=1;
+                }
+
+                $model->id_unique = $rand;
+                $model->status = 0;
+                $model->date = date('Y-m-d');
+                if(!$model->save(false)) {
+                    echo 'Увага! Дані не передано.';
+                    return;
+                }
+//                Добавление документов в базу
+                if(isset($u1->name)) {
+                    $doc = new Docs();
+                    $doc->id_doc = 1;
+                    $doc->file_path = $doc->id_doc . '_' . $rand . '-' . $u1->name;
+                    $doc->id_request = $rand;
+                    $doc->save();
+                }
+                if(isset($u2->name)) {
+                    $doc = new Docs();
+                    $doc->id_doc = 2;
+                    $doc->file_path = $doc->id_doc . '_' . $rand . '-' . $u2->name;
+                    $doc->id_request = $rand;
+                    $doc->save();
+                }
+                if(isset($u3->name)) {
+                    $doc = new Docs();
+                    $doc->id_doc = 3;
+                    $doc->file_path = $doc->id_doc . '_' . $rand . '-' . $u3->name;
+                    $doc->id_request = $rand;
+                    $doc->save();
+                }
+                if(isset($u4->name)) {
+                    $doc = new Docs();
+                    $doc->id_doc = 4;
+                    $doc->file_path = $doc->id_doc . '_' . $rand . '-' . $u4->name;
+                    $doc->id_request = $rand;
+                    $doc->save();
+                }
+
+                // Создание сообщения о сохранении записи с документами
+                $msg = new info();
+                $msg->title = 'Увага!';
+                $msg->info1 = "Дані по актуалізації передано.";
+                $msg->style1 = "d15";
+                $msg->style2 = "info-text";
+                $msg->style_title = "d9";
+
+                return $this->render('about', [
+                    'model' => $msg]);
+
+            } else {
+//            Форма ввода данных
+                return $this->render('update_request', [
+                    'model' => $model,'mode'=>0]);
+            }
+        }
+
+    //    Просмотр документов
+    public function actionDoc_request(){
+        date_default_timezone_set('Europe/Kiev');
+        $doc = Yii::$app->request->post('doc');
+        $id = Yii::$app->request->post('id');
+
+        $sql = 'select a.* from docs a'
+            . ' where a.id_doc=:search_doc and a.id_request=:search_id';
+        $model = docs::findBySql($sql,[':search_doc'=>$doc,':search_id'=>$id])->one();
+
+        $f="store/".$model->file_path;
+        $f=str_replace('.PDF','.pdf',$f);
+        $file = Yii::getAlias($f);
+        return Yii::$app->response->sendFile($file);
+    }
+
+    //    Обновление статуса по данным актуализации
+    public function actionActual_edit($id,$mod)
+    {
+        // $id  id записи
+        // $mod - название модели
+        $flag = 1;
+        $role = 0;
+        if (!isset(Yii::$app->user->identity->role)) {
+            $flag = 0;
+        } else {
+            $role = Yii::$app->user->identity->role;
+        }
+        if ($mod == 'actual') {
+            $model = request::find()->where('id=:id', [':id' => $id])->one();
+            $id_request = $model->id_unique;
+            $doc_v = docs::find()->where('id_request=:id', [':id' => $id_request])->all();
+        }
+
+        if ($model->load(Yii::$app->request->post())) {
+            $model1 = actual::find()->where('id=:id', [':id' => $id])->one();
+
+            $model1->status = $model->status;
+
+            if(!$model1->save(false))
+            {  var_dump($model1);return;}
+
+            if($mod=='actual')
+                return $this->redirect(['site/view_actualization']);
+        }
+        else{
+            // Вызов формы редактирования
+            return $this->render('actual_edit', [
+                'model' => $model, 'doc_v' => $doc_v
+            ]);
+        }
+    }
+
+        //  Происходит при закачке данных с АСКОЕ в САП
+    public function actionAskoe2sap()
+{
+    $model = new Data_askoe();
+    if ($model->load(Yii::$app->request->post())) {
+        return $this->redirect(['smart2sap',
+            'res' => $model->res,
+            'code' => $model->code]);
+    } else {
+        $role = 0;
+        return $this->render('data_askoe', [
+            'model' => $model,
+        ]);
+    }
+}
 
     //  Передача данных с АСКОЕ в САП
     public function actionSmart2sap($res,$code=''){
@@ -2674,26 +3020,42 @@ select d.*,case when owneraccount is null then code else owneraccount end as lic
             'model' => $model]);
     }
 
-   // Добавление новых пользователей
+    // Добавление новых пользователей
     public function actionAddAdmin() {
-        $model = User::find()->where(['username' => 'main'])->one();
-        if (empty($model)) {
+        $model = User::find()->where(['username' => 'krgrem'])->one();
+
+        if (empty($model) || is_null($model)) {
             $user = new User();
-            $user->username = 'main';
-            $user->email = 'sivtsov@cek.dp.ua';
-            $user->setPassword('dlj[yjdtybt');
+            $user->username = 'krgrem';
+            $user->email = 'krgrem@ukr.net';
+            $user->id = 5;
+            $user->role = 2;
+            $user->id_res = 4;
+            $user->setPassword('cdj,jlf');
             $user->generateAuthKey();
             if ($user->save()) {
                 echo 'good';
+            }
+            else{
+                $user->validate();
+                debug($user->getErrors());
             }
         }
     }
 
 // Выход пользователя
+//    public function actionLogout()
+//    {
+//        Yii::$app->user->logout();
+//       // return $this->goHome();
+//        Yii::$app->response->redirect(Url::to('/abnlegal/cek'));
+//    }
+
+    // Выход пользователя
     public function actionLogout()
     {
         Yii::$app->user->logout();
-       // return $this->goHome();
-        Yii::$app->response->redirect(Url::to('/abnlegal/cek'));
+        return $this->redirect('site/view_actualization');
     }
+
 }

@@ -21,7 +21,13 @@ class Docs extends ActiveRecord
     public function rules()
     {
         return [
-            [['id','id_doc','item_id','file_path','id_unique'], 'safe'],
+            [['id','id_doc','item_id','file_path','id_request'], 'safe'],
         ];
     }
+
+    public static function getDb()
+    {
+        return Yii::$app->get('db_dnres');
+    }
+
 }

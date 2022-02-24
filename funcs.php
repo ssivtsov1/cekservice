@@ -680,4 +680,17 @@ function format_date2($date)
     return $dd . '.' . $mm . '.' .$yy;
 }
 
+// Проверка наличия элемента в массиве
+function is_doc($mas, $e) {
+    $flag = 0;
+    if(!isset($mas))  return $flag;
+    foreach ($mas as $v){
+        if($v['id_doc'] == $e){
+            $flag=1;
+            break;
+        }
+    }
+    return $flag;
+}
+
     ?>

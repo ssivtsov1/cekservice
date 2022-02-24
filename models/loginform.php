@@ -9,7 +9,6 @@ class Loginform extends Model
 {
     public $username;
     public $password;
-    public $res;
     public $rememberMe = true;
 
     private $_user;
@@ -18,7 +17,6 @@ class Loginform extends Model
     {
         return [
             'username' => 'Ім’я користувача:',
-            'res' => 'РЕМ:',
             'password' => 'Пароль:',
         ];
     }
@@ -27,7 +25,7 @@ class Loginform extends Model
     {
         return [
             // username and password are both required
-            [['username', 'password','res'], 'required','message' => 'Поле обов’язкове'],
+            [['username', 'password'], 'required','message' => 'Поле обов’язкове'],
             // rememberMe must be a boolean value
             ['rememberMe', 'boolean'],
             // password is validated by validatePassword()
@@ -78,6 +76,7 @@ class Loginform extends Model
      */
     protected function getUser()
     {
+
         if ($this->_user === null) {
             $this->_user = $this->findUserByUsernameOrEmail();
 
@@ -90,5 +89,10 @@ class Loginform extends Model
     {
         return   User::find()->where(['username' => $this->username])->orWhere(['email' => $this->username])->one();
 
+    }
+
+    public static function getDb()
+    {
+        return Yii::$app->get('db_dnres');
     }
 }

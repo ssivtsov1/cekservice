@@ -705,10 +705,21 @@ a.desc:after {
 .calc-connect{
     margin: auto;
 }
-.calc-form{
+.calc-form1{
     /*margin-left: 370px;*/
     margin-left:33%;
 }
+
+.calc-form1{
+    /*margin-left: 370px;*/
+    margin-left:5%;
+}
+
+#vact_left{
+    /*margin-left: 370px;*/
+   float: left;
+}
+
 
 h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
@@ -1687,7 +1698,6 @@ body {
     border: 1px solid #BDB76B;
     /*border-right: none;*/
 }
-
 .field-data_fotofix-tp,
 .field-data_fotofix-counter,
 .field-data_fotofix-sn,

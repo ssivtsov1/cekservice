@@ -240,6 +240,8 @@ class User extends Component
         if ($this->beforeLogin($identity, false, $duration)) {
             $this->switchIdentity($identity, $duration);
             $id = $identity->getId();
+//            debug($identity);
+//            return;
             $ip = Yii::$app->getRequest()->getUserIP();
             if ($this->enableSession) {
                 $log = "User '$id' logged in from $ip with duration $duration.";
@@ -344,6 +346,8 @@ class User extends Component
 
         return $identity !== null ? $identity->getId() : null;
     }
+
+
 
     /**
      * Returns the URL that the browser should be redirected to after successful login.
